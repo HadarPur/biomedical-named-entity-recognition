@@ -32,33 +32,33 @@ This experiment fine-tunes a PubMedBERT token classification model on the BC5CDR
 ## 4. Validation Results
 | Metric | Value |
 |--------|--------|
-| Loss | 0.106 |
+| Loss | 0.104 |
 | Precision | 0.879 |
-| Recall | 0.916 |
-| F1 | **0.897** |
+| Recall | 0.912 |
+| F1 | **0.895** |
 
 ---
 
 ## 5. Test Results
 | Metric | Value |
 |--------|--------|
-| Loss | 0.1157 |
-| Precision | 0.8632 |
-| Recall | 0.9073 |
-| F1 | **0.8847** |
+| Loss | 0.115 |
+| Precision | 0.858 |
+| Recall | 0.903 |
+| F1 | **0.880** |
 
 ### Per-Entity Performance
 | Entity | Precision | Recall | F1 | Support |
 |--------|-----------|--------|----|---------|
-| Chemical | 0.91 | 0.94 | 0.92 | 5385 |
-| Disease | 0.80 | 0.87 | 0.84 | 4424 |
+| Chemical | 0.91 | 0.93 | 0.92 | 5385 |
+| Disease | 0.80 | 0.87 | 0.83 | 4424 |
 
 **Macro Avg F1:** 0.88  
-**Weighted Avg F1:** 0.89  
+**Weighted Avg F1:** 0.88  
 
 ---
 
 ## 6. Summary
 - Strong Chemical NER (F1 ≈ 0.92)  
-- Improved Disease performance using weighted loss (F1 ≈ 0.84)  
-- Overall F1 on BC5CDR reaches **0.88–0.89**  
+- Improved Disease performance using weighted loss (F1 ≈ 0.83)  
+- Overall F1 on BC5CDR reaches **0.88**  
